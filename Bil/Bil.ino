@@ -11,14 +11,14 @@ const byte address[6] = "01010"; //-------------------------------------   <- re
 
 //pins
 // motor one
-int enA = 3;
-int in1 = 4;
-int in2 = 5;
+const int enA = 3;
+const int in1 = 4;
+const int in2 = 5;
 
 // motor two
-int enB = 6;
-int in3 = 7;
-int in4 = 8;
+const int enB = 6;
+const int in3 = 7;
+const int in4 = 8;
 
 void setup() {
   Serial.begin(9600);
